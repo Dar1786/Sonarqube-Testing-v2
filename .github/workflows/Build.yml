@@ -37,4 +37,4 @@ jobs:
         run: |
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           mvn clean verify
-          mvn sonar:sonar -Dsonar.projectKey="SonarQube Sigma" -Dsonar.sources="src/../"
+          mvn sonar:sonar -Dsonar.projectKey="SonarQube Sigma" -Dsonar.sources="src"
